@@ -1,0 +1,384 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
+        <item name="android:justificationMode">inter_word</item>
+    </style>
+
+    <!--RadioButton theme -->
+    <style name="radioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_marginTop">@dimen/dimension10</item>
+
+    </style>
+
+
+    <!--RadioGroup theme -->
+    <style name="radioGroup" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dimension20</item>
+        <item name="android:layout_below">@+id/question</item>
+    </style>
+
+    <!--Button theme -->
+    <style name="buttonTheme" parent="Widget.AppCompat.Button">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_above">@id/score</item>
+        <item name="android:layout_marginBottom">@dimen/dimension10</item>
+        <item name="android:background">@drawable/drawable_shape</item>
+        <item name="android:text">@string/next</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Button landscape theme -->
+    <style name="buttonThemeLand" parent="Widget.AppCompat.Button">
+        <item name="android:layout_marginLeft">@dimen/dimension70</item>
+        <item name="android:layout_marginBottom">@dimen/dimension130</item>
+        <item name="android:background">@drawable/drawable_shape</item>
+        <item name="android:text">@string/next</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <!--Score theme -->
+
+    <style name="textViewScore" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSizeQuestion</item>
+        <item name="android:layout_above">@id/scorePoints</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/score</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--Score landscape theme -->
+
+    <style name="textViewScoreLand" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSizeQuestion</item>
+        <item name="android:layout_above">@id/scorePoints</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/score</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/dimension130</item>
+    </style>
+
+    <!--scorePoints theme -->
+
+    <style name="textViewScorePoints" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSizeQuestion</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/scoreText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/dimension10</item>
+    </style>
+
+
+    <!--scorePoints landscape theme -->
+
+    <style name="textViewScorePointsLand" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSizeQuestion</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/scoreText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/dimension130</item>
+    </style>
+
+
+    <!--Question theme -->
+    <style name="questionView" parent="android:Widget.TextView">
+        <item name="android:layout_below">@id/category</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">@dimen/dimension30</item>
+        <item name="android:layout_marginRight">@dimen/dimension10</item>
+        <item name="android:layout_marginTop">@dimen/dimension60</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSizeQuestion</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Category theme-->
+    <style name="categoryView" parent="android:Widget.TextView">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dimension30</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize_category</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--CheckBox theme -->
+    <style name="checkBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_marginTop">@dimen/dimension10</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+
+    <!--CheckBox theme -->
+    <style name="checkBoxLand" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_marginTop">@dimen/dimension10</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
+    <!--TextView Geography theme -->
+    <style name="textGeography" parent="android:Widget.TextView">
+        <item name="android:layout_marginLeft">@dimen/dimension60</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/geography</item>
+    </style>
+
+    <!--TextView Nature theme -->
+    <style name="textNature" parent="android:Widget.TextView">
+        <item name="android:layout_marginLeft">@dimen/dimension70</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/nature</item>
+    </style>
+
+
+    <!--TextView Histoy theme -->
+    <style name="textHistory" parent="android:Widget.TextView">
+        <item name="android:layout_marginLeft">@dimen/dimension75</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/history</item>
+    </style>
+
+    <!--TextView Science theme -->
+    <style name="textScience" parent="android:Widget.TextView">
+        <item name="android:layout_marginLeft">@dimen/dimension80</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/science</item>
+    </style>
+
+
+    <!--TextView Quiz  theme -->
+    <style name="textQuiz" parent="android:Widget.TextView">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dimension30</item>
+        <item name="android:textSize">@dimen/textSize_category</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/quiz</item>
+    </style>
+
+    <!--TextView Quiz Land theme -->
+    <style name="textQuizLand" parent="android:Widget.TextView">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dimension80</item>
+        <item name="android:textSize">@dimen/textSize_category</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/quiz</item>
+    </style>
+
+    <!--ImageView theme -->
+    <style name="imageViewGeography">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dimension100</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/compass</item>
+    </style>
+
+
+
+    <!--ImageView theme -->
+    <style name="imageViewGeographyLand">
+        <item name="android:layout_marginLeft">@dimen/dimension25</item>
+        <item name="android:layout_marginTop">@dimen/dimension100</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/compass</item>
+    </style>
+
+    <!--ImageView theme -->
+    <style name="imageViewHistory">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dimension50</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/historyy2</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+    <!--ImageView theme -->
+    <style name="imageViewHistoryLand">
+        <item name="android:layout_marginLeft">@dimen/dimension25</item>
+        <item name="android:layout_marginTop">@dimen/dimension100</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/historyy2</item>
+    </style>
+
+
+    <!--ImageView theme -->
+    <style name="imageViewNature">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dimension100</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/planet</item>
+    </style>
+
+
+    <!--ImageView theme -->
+    <style name="imageViewNatureLand">
+        <item name="android:layout_marginLeft">@dimen/dimension10</item>
+        <item name="android:layout_marginTop">@dimen/dimension100</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/planet</item>
+    </style>
+
+
+    <!--ImageView theme -->
+    <style name="imageViewScience">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dimension50</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/scientist</item>
+    </style>
+
+
+    <!--ImageView theme -->
+    <style name="imageViewScienceLand">
+        <item name="android:layout_marginLeft">@dimen/dimension15</item>
+        <item name="android:layout_marginTop">@dimen/dimension100</item>
+        <item name="android:contentDescription">@string/backgroundImage</item>
+        <item name="android:src">@drawable/scientist</item>
+    </style>
+
+
+    <!--TextView Geography land -->
+    <style name="textGeographyLand" parent="android:Widget.TextView">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/dimension100</item>
+        <item name="android:layout_marginLeft">@dimen/dimension60</item>
+        <item name="android:text">@string/geography</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--TextView Science land -->
+    <style name="textScienceLand" parent="android:Widget.TextView">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/dimension100</item>
+        <item name="android:layout_marginLeft">@dimen/dimension100</item>
+        <item name="android:text">@string/science</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_toRightOf">@id/textView0</item>
+    </style>
+
+
+
+    <!--TextView History land -->
+    <style name="textHistoryLand" parent="android:Widget.TextView">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/dimension100</item>
+        <item name="android:layout_marginLeft">@dimen/dimension110</item>
+        <item name="android:text">@string/history</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_toRightOf">@id/textView1</item>
+    </style>
+
+
+    <!--TextView Nature land -->
+    <style name="textNatureLand" parent="android:Widget.TextView">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">@dimen/dimension100</item>
+        <item name="android:layout_marginLeft">@dimen/dimension100</item>
+        <item name="android:text">@string/nature</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_toRightOf">@id/textView2</item>
+    </style>
+
+
+    <!--EditText -->
+    <style name="editText" parent="android:Widget.EditText">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">@dimen/dimension60</item>
+        <item name="android:hint">@string/typeAnswer</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textColorHint">@color/textColor</item>
+    </style>
+
+    <!--EditText Land -->
+    <style name="editTextLand" parent="android:Widget.EditText">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">@dimen/dimension30</item>
+        <item name="android:hint">@string/typeAnswer</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textColorHint">@color/textColor</item>
+    </style>
+
+
+    <!--TextScore Land -->
+    <style name="textScoreLand" parent="android:Widget.TextView">
+        <item name="android:layout_marginBottom">@dimen/dimension50</item>
+        <item name="android:text">@string/score</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--TextScorePoints Land -->
+    <style name="textScorePointsLand" parent="android:Widget.TextView">
+        <item name="android:layout_marginBottom">@dimen/dimension50</item>
+        <item name="android:text">@string/scoreText</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <!--Button Land -->
+    <style name="buttonLand" parent="android:Widget.TextView">
+        <item name="android:layout_marginLeft">@dimen/dimension70</item>
+        <item name="android:text">@string/next</item>
+        <item name="android:background">@drawable/drawable_shape</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_marginBottom">@dimen/dimension50</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

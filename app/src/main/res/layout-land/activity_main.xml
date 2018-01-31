@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ioana.eduquiz.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/backgroundImage"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/backgroundland" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textQuizLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/geography"
+                style="@style/imageViewGeographyLand"
+                android:layout_width="@dimen/dimension150"
+                android:layout_height="@dimen/dimension150" />
+
+
+            <ImageView
+
+                android:id="@+id/science"
+                style="@style/imageViewScienceLand"
+                android:layout_width="@dimen/dimension150"
+                android:layout_height="@dimen/dimension150" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageView
+
+                android:id="@+id/history"
+                style="@style/imageViewHistoryLand"
+                android:layout_width="@dimen/dimension150"
+                android:layout_height="@dimen/dimension150" />
+
+            <ImageView
+
+
+                android:id="@+id/nature"
+                style="@style/imageViewNatureLand"
+                android:layout_width="@dimen/dimension150"
+                android:layout_height="@dimen/dimension150" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView0"
+        style="@style/textGeographyLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/textScienceLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/textHistoryLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/textNatureLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
