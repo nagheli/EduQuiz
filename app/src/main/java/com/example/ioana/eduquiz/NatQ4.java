@@ -38,7 +38,7 @@ public class NatQ4 extends AppCompatActivity {
         nextQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // create a new intent to open the GeoQ1 activity
+                // create a new intent to open the NatSubmit activity
                 if(answer.getText().toString().equals("Polar bear")) {
                     answerPoints++;}
                 else{answerPoints = answerPoints + 0;

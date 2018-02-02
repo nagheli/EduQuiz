@@ -41,8 +41,6 @@
             style="@style/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerG31" />
 
         <RadioButton
@@ -50,8 +48,6 @@
             style="@style/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerG32" />
 
         <RadioButton
@@ -59,8 +55,6 @@
             style="@style/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerG33" />
 
 
@@ -69,8 +63,6 @@
             style="@style/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerG34" />
 
 
@@ -79,8 +71,6 @@
             style="@style/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerG35" />
     </RadioGroup>
 

@@ -47,7 +47,7 @@ public class HistQ4 extends AppCompatActivity {
         nextQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // create a new intent to open the HistSubmit activity
+                // create a new intent to open the NatQ3 activity
                 if(optionFourQ1.isChecked() || optionTwoQ1.isChecked() || optionThreeQ1.isChecked()){
                     answerPoints = answerPoints + 0;
                 }

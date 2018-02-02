@@ -15,6 +15,7 @@
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:layout_marginTop">@dimen/dimension10</item>
+        <item name="android:buttonTint">@color/colorButton</item>
 
     </style>
 
@@ -24,6 +25,7 @@
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginTop">@dimen/dimension20</item>
         <item name="android:layout_below">@+id/question</item>
+        <item name="android:buttonTint">@color/colorButton</item>
     </style>
 
     <!--Button theme -->
@@ -129,6 +131,7 @@
         <item name="android:textColor">@color/textColor</item>
         <item name="android:layout_marginTop">@dimen/dimension10</item>
         <item name="android:layout_centerInParent">true</item>
+        <item name="android:buttonTint">@color/colorButton</item>
     </style>
 
 
@@ -138,6 +141,7 @@
         <item name="android:textColor">@color/textColor</item>
         <item name="android:layout_marginTop">@dimen/dimension10</item>
         <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:buttonTint">@color/colorButton</item>
     </style>
 
 
@@ -208,7 +212,6 @@
         <item name="android:contentDescription">@string/backgroundImage</item>
         <item name="android:src">@drawable/compass</item>
     </style>
-
 
 
     <!--ImageView theme -->
@@ -299,7 +302,6 @@
     </style>
 
 
-
     <!--TextView History land -->
     <style name="textHistoryLand" parent="android:Widget.TextView">
         <item name="android:layout_alignParentBottom">true</item>
@@ -336,23 +338,25 @@
         <item name="android:textColor">@color/textColor</item>
         <item name="android:inputType">textCapWords</item>
         <item name="android:textColorHint">@color/textColor</item>
+        <item name="android:buttonTint">@color/colorButton</item>
     </style>
 
     <!--EditText Land -->
     <style name="editTextLand" parent="android:Widget.EditText">
         <item name="android:layout_centerInParent">true</item>
-        <item name="android:layout_marginTop">@dimen/dimension30</item>
+        <item name="android:layout_marginTop">@dimen/dimension20</item>
         <item name="android:hint">@string/typeAnswer</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:inputType">textCapWords</item>
         <item name="android:textColorHint">@color/textColor</item>
+        <item name="android:buttonTint">@color/colorButton</item>
     </style>
 
 
     <!--TextScore Land -->
     <style name="textScoreLand" parent="android:Widget.TextView">
-        <item name="android:layout_marginBottom">@dimen/dimension50</item>
+        <item name="android:layout_marginBottom">@dimen/dimension70</item>
         <item name="android:text">@string/score</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
@@ -361,13 +365,12 @@
 
     <!--TextScorePoints Land -->
     <style name="textScorePointsLand" parent="android:Widget.TextView">
-        <item name="android:layout_marginBottom">@dimen/dimension50</item>
+        <item name="android:layout_marginBottom">@dimen/dimension70</item>
         <item name="android:text">@string/scoreText</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
     </style>
-
 
 
     <!--Button Land -->

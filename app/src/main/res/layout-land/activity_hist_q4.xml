@@ -40,8 +40,6 @@
             android:layout_width="@dimen/dimension300"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerH51" />
 
         <CheckBox
@@ -50,8 +48,6 @@
             android:layout_width="@dimen/dimension300"
             android:layout_height="wrap_content"
             android:layout_below="@+id/checkBox"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerH52" />
 
         <CheckBox
@@ -60,8 +56,6 @@
             android:layout_width="@dimen/dimension300"
             android:layout_height="wrap_content"
             android:layout_below="@+id/checkBox2"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerH53" />
 
 
@@ -71,8 +65,6 @@
             android:layout_width="@dimen/dimension300"
             android:layout_height="wrap_content"
             android:layout_below="@+id/checkBox3"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerH54" />
 
 
@@ -82,8 +74,6 @@
             android:layout_width="@dimen/dimension300"
             android:layout_height="wrap_content"
             android:layout_below="@+id/checkBox4"
-            android:buttonTint="@color/colorButton"
-
             android:text="@string/answerH55" />
 
         <LinearLayout
