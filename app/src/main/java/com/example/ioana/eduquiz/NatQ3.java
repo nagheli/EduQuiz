@@ -39,7 +39,7 @@ public class NatQ3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // create a new intent to open the NatQ4 activity
-                if(answer.getText().toString().equals("Whale shark")) {
+                if(answer.getText().toString().equalsIgnoreCase("Whale shark")) {
                     answerPoints++;}
                 else{answerPoints = answerPoints + 0;
                 }

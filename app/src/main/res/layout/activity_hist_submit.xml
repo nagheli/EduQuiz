@@ -31,8 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/dimension70"
-
+        android:layout_marginTop="@dimen/dimension90"
         android:text="@string/congratulations"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize2"
@@ -46,9 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/message"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/dimension270"
+        android:layout_marginTop="@dimen/dimension300"
         android:background="@drawable/drawable_shape"
-
         android:text="@string/restart"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize"
@@ -63,7 +61,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dimension10"
         android:background="@drawable/drawable_shape"
-
         android:text="@string/share"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize"
@@ -78,7 +75,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dimension10"
         android:background="@drawable/drawable_shape"
-
         android:text="@string/quit"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize"
@@ -97,7 +93,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimension20"
-
             android:text="@string/scoree"
             android:textColor="@color/textColor"
             android:textSize="@dimen/textSize_category"
@@ -108,7 +103,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimension20"
-
             android:text="@string/scoreText"
             android:textColor="@color/textColor"
             android:textSize="@dimen/textSize_category"
@@ -119,7 +113,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimension20"
-
             android:text="@string/scoreTextt"
             android:textColor="@color/textColor"
             android:textSize="@dimen/textSize_category"

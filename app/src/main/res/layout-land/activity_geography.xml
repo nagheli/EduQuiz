@@ -22,7 +22,6 @@
             style="@style/categoryView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/category1" />
 
         <TextView
@@ -30,7 +29,6 @@
             style="@style/questionView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/question1G" />
 
         <RadioGroup
@@ -44,21 +42,21 @@
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/answerG11" />
+                android:text="@string/answerG11"/>
 
             <RadioButton
                 android:id="@+id/radioButton2"
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/answerG12" />
+                android:text="@string/answerG12"/>
 
             <RadioButton
                 android:id="@+id/radioButton3"
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/answerG13" />
+                android:text="@string/answerG13"/>
 
 
             <RadioButton
@@ -66,7 +64,7 @@
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/answerG14" />
+                android:text="@string/answerG14"/>
 
 
             <RadioButton
@@ -74,7 +72,8 @@
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/answerG15" />
+                android:text="@string/answerG15"/>
+
 
         </RadioGroup>
 
@@ -103,7 +102,7 @@
                 android:id="@+id/next"
                 style="@style/buttonThemeLand"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"/>
 
 
         </LinearLayout>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundSubmit"
     tools:context="com.example.ioana.eduquiz.GeoSubmit">
 
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageView
         android:id="@+id/golden"
         android:layout_width="@dimen/dimension200"
@@ -31,8 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/dimension70"
-
+        android:layout_marginTop="@dimen/dimension90"
         android:text="@string/congratulations"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize2"
@@ -46,9 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/message"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/dimension270"
+        android:layout_marginTop="@dimen/dimension300"
         android:background="@drawable/drawable_shape"
-
         android:text="@string/restart"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize"
@@ -63,7 +63,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dimension10"
         android:background="@drawable/drawable_shape"
-
         android:text="@string/share"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize"
@@ -78,7 +77,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dimension10"
         android:background="@drawable/drawable_shape"
-
         android:text="@string/quit"
         android:textColor="@color/textColor"
         android:textSize="@dimen/textSize"
@@ -122,5 +120,5 @@
             android:textSize="@dimen/textSize_category"
             android:textStyle="bold" />
     </LinearLayout>
-
 </RelativeLayout>
+</ScrollView>

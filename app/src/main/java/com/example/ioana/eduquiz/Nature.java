@@ -31,7 +31,7 @@ public class Nature extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         // create a new intent to open the NatQ1 activity
-                        if(answer.getText().toString().contains("Madagascar")) {
+                        if(answer.getText().toString().equalsIgnoreCase("Madagascar")) {
                             answerPoints++;}
                             else{answerPoints = answerPoints + 0;
 

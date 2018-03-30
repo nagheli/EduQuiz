@@ -39,7 +39,7 @@ public class NatQ4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // create a new intent to open the NatSubmit activity
-                if(answer.getText().toString().equals("Polar bear")) {
+                if(answer.getText().toString().equalsIgnoreCase("Polar bear")) {
                     answerPoints++;}
                 else{answerPoints = answerPoints + 0;
                 }

@@ -18,7 +18,6 @@
         android:id="@+id/category"
         style="@style/categoryView"
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
         android:text="@string/category2" />
 
@@ -26,7 +25,6 @@
         android:id="@+id/question"
         style="@style/questionView"
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
         android:text="@string/question2N" />
 
@@ -49,14 +47,12 @@
         android:id="@+id/score"
         style="@style/textViewScore"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/scorePoints"
         style="@style/textViewScorePoints"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content" />
 
 

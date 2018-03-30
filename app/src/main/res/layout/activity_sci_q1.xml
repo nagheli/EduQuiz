@@ -19,7 +19,6 @@
         style="@style/categoryView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="@string/category4" />
 
     <TextView
@@ -27,7 +26,6 @@
         style="@style/questionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="@string/question2S" />
 
 
@@ -37,8 +35,6 @@
         android:layout_width="@dimen/dimension300"
         android:layout_height="wrap_content"
         android:layout_below="@+id/question"
-        android:buttonTint="@color/colorButton"
-
         android:text="@string/answerS21" />
 
     <CheckBox
@@ -47,8 +43,6 @@
         android:layout_width="@dimen/dimension300"
         android:layout_height="wrap_content"
         android:layout_below="@+id/checkBox"
-        android:buttonTint="@color/colorButton"
-
         android:text="@string/answerS22" />
 
     <CheckBox
@@ -57,8 +51,6 @@
         android:layout_width="@dimen/dimension300"
         android:layout_height="wrap_content"
         android:layout_below="@+id/checkBox2"
-        android:buttonTint="@color/colorButton"
-
         android:text="@string/answerS23" />
 
 
@@ -68,8 +60,6 @@
         android:layout_width="@dimen/dimension300"
         android:layout_height="wrap_content"
         android:layout_below="@+id/checkBox3"
-        android:buttonTint="@color/colorButton"
-
         android:text="@string/answerS24" />
 
     <Button

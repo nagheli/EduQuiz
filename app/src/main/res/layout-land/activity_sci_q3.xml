@@ -22,7 +22,6 @@
             style="@style/categoryView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/category4" />
 
         <TextView
@@ -30,7 +29,6 @@
             style="@style/questionView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/question4S" />
 
         <RadioGroup
@@ -44,8 +42,6 @@
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorButton"
-
                 android:text="@string/answerS41" />
 
             <RadioButton
@@ -53,8 +49,6 @@
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorButton"
-
                 android:text="@string/answerS42" />
 
             <RadioButton
@@ -62,8 +56,6 @@
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorButton"
-
                 android:text="@string/answerS43" />
 
 
@@ -72,8 +64,6 @@
                 style="@style/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorButton"
-
                 android:text="@string/answerS44" />
 
 

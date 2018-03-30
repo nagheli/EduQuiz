@@ -147,7 +147,7 @@
 
     <!--TextView Geography theme -->
     <style name="textGeography" parent="android:Widget.TextView">
-        <item name="android:layout_marginLeft">@dimen/dimension60</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
@@ -156,7 +156,7 @@
 
     <!--TextView Nature theme -->
     <style name="textNature" parent="android:Widget.TextView">
-        <item name="android:layout_marginLeft">@dimen/dimension70</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
@@ -166,7 +166,7 @@
 
     <!--TextView Histoy theme -->
     <style name="textHistory" parent="android:Widget.TextView">
-        <item name="android:layout_marginLeft">@dimen/dimension75</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
@@ -175,7 +175,7 @@
 
     <!--TextView Science theme -->
     <style name="textScience" parent="android:Widget.TextView">
-        <item name="android:layout_marginLeft">@dimen/dimension80</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
@@ -216,7 +216,6 @@
 
     <!--ImageView theme -->
     <style name="imageViewGeographyLand">
-        <item name="android:layout_marginLeft">@dimen/dimension25</item>
         <item name="android:layout_marginTop">@dimen/dimension100</item>
         <item name="android:contentDescription">@string/backgroundImage</item>
         <item name="android:src">@drawable/compass</item>
@@ -234,7 +233,6 @@
 
     <!--ImageView theme -->
     <style name="imageViewHistoryLand">
-        <item name="android:layout_marginLeft">@dimen/dimension25</item>
         <item name="android:layout_marginTop">@dimen/dimension100</item>
         <item name="android:contentDescription">@string/backgroundImage</item>
         <item name="android:src">@drawable/historyy2</item>
@@ -243,7 +241,6 @@
 
     <!--ImageView theme -->
     <style name="imageViewNature">
-        <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">@dimen/dimension100</item>
         <item name="android:contentDescription">@string/backgroundImage</item>
         <item name="android:src">@drawable/planet</item>
@@ -252,7 +249,6 @@
 
     <!--ImageView theme -->
     <style name="imageViewNatureLand">
-        <item name="android:layout_marginLeft">@dimen/dimension10</item>
         <item name="android:layout_marginTop">@dimen/dimension100</item>
         <item name="android:contentDescription">@string/backgroundImage</item>
         <item name="android:src">@drawable/planet</item>
@@ -270,7 +266,6 @@
 
     <!--ImageView theme -->
     <style name="imageViewScienceLand">
-        <item name="android:layout_marginLeft">@dimen/dimension15</item>
         <item name="android:layout_marginTop">@dimen/dimension100</item>
         <item name="android:contentDescription">@string/backgroundImage</item>
         <item name="android:src">@drawable/scientist</item>
@@ -279,9 +274,7 @@
 
     <!--TextView Geography land -->
     <style name="textGeographyLand" parent="android:Widget.TextView">
-        <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_marginBottom">@dimen/dimension100</item>
-        <item name="android:layout_marginLeft">@dimen/dimension60</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:text">@string/geography</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
@@ -291,41 +284,31 @@
 
     <!--TextView Science land -->
     <style name="textScienceLand" parent="android:Widget.TextView">
-        <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_marginBottom">@dimen/dimension100</item>
-        <item name="android:layout_marginLeft">@dimen/dimension100</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:text">@string/science</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_toRightOf">@id/textView0</item>
     </style>
 
 
     <!--TextView History land -->
     <style name="textHistoryLand" parent="android:Widget.TextView">
-        <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_marginBottom">@dimen/dimension100</item>
-        <item name="android:layout_marginLeft">@dimen/dimension110</item>
         <item name="android:text">@string/history</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_toRightOf">@id/textView1</item>
     </style>
 
 
     <!--TextView Nature land -->
     <style name="textNatureLand" parent="android:Widget.TextView">
-        <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:layout_marginBottom">@dimen/dimension100</item>
-        <item name="android:layout_marginLeft">@dimen/dimension100</item>
         <item name="android:text">@string/nature</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_toRightOf">@id/textView2</item>
     </style>
 
 

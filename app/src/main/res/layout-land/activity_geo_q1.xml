@@ -22,7 +22,6 @@
             style="@style/categoryView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/category1" />
 
         <TextView
@@ -30,7 +29,6 @@
             style="@style/questionView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/question2G" />
 
         <RadioGroup
@@ -90,20 +88,22 @@
                 android:id="@+id/score"
                 style="@style/textViewScoreLand"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension50"/>
 
             <TextView
                 android:id="@+id/scorePoints"
                 style="@style/textViewScorePointsLand"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension50" />
 
             <Button
                 android:id="@+id/next"
                 style="@style/buttonThemeLand"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension50" />
 
         </LinearLayout>
     </RelativeLayout>

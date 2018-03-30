@@ -19,7 +19,6 @@
         style="@style/categoryView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="@string/category2" />
 
 
@@ -28,7 +27,6 @@
         style="@style/questionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="@string/question3N" />
 
 
@@ -37,8 +35,7 @@
         style="@style/editTextLand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/question"
-        android:backgroundTint="@color/colorButtonBackground" />
+        android:layout_below="@+id/question" />
 
 
     <LinearLayout

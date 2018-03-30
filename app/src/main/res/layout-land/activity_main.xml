@@ -31,76 +31,92 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/geography"
                 style="@style/imageViewGeographyLand"
-                android:layout_width="@dimen/dimension150"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/dimension150" />
 
 
-            <ImageView
-
-                android:id="@+id/science"
-                style="@style/imageViewScienceLand"
-                android:layout_width="@dimen/dimension150"
-                android:layout_height="@dimen/dimension150" />
-
-
+            <TextView
+                android:id="@+id/textView0"
+                style="@style/textGeographyLand"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
 
             <ImageView
 
                 android:id="@+id/history"
                 style="@style/imageViewHistoryLand"
-                android:layout_width="@dimen/dimension150"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/dimension150" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textHistoryLand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
 
             <ImageView
 
+                android:id="@+id/science"
+                style="@style/imageViewScienceLand"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimension150" />
 
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/textScienceLand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
                 android:id="@+id/nature"
                 style="@style/imageViewNatureLand"
-                android:layout_width="@dimen/dimension150"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/dimension150" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/textNatureLand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
 
 
         </LinearLayout>
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView0"
-        style="@style/textGeographyLand"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/textView1"
-        style="@style/textScienceLand"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:id="@+id/textView2"
-        style="@style/textHistoryLand"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/textView3"
-        style="@style/textNatureLand"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
 
 </RelativeLayout>

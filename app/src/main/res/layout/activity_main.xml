@@ -76,8 +76,8 @@
 
             <TextView
                 style="@style/textNature"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dimension30" />
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimension30"/>
 
             <ImageView
 
@@ -90,7 +90,7 @@
             <TextView
                 style="@style/textScience"
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/dimension30" />
+                android:layout_height="@dimen/dimension30"/>
 
         </LinearLayout>
 
